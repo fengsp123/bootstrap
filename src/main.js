@@ -5,7 +5,8 @@ import store from "./store";
 import $ from 'jquery';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-
+import axios from 'axios';
+Vue.prototype.$axios = axios;
 Vue.config.productionTip = false;
 
 new Vue({
